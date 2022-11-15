@@ -8,13 +8,12 @@ public class FizzBuzz {
 			numbers[i] = i + 1;
 			
 			if (numbers[i] % 3 == 0 && numbers[i] % 5 == 0) {
-				System.out.println("FizzBuzz");
+				System.out.println("FizzBuzz (" + numbers[i] + ")");
 			} else if (numbers[i] % 3 == 0) {
-				System.out.println("Fizz");
+				System.out.println("Fizz (" + numbers[i] + ")");
 			} else if (numbers[i] % 5 == 0) {
-				System.out.println("Buzz");
-			} else {
-								
+				System.out.println("Buzz (" + numbers[i] + ")");
+			} else {	
 				System.out.println(numbers[i]);
 			}
 		}
